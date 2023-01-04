@@ -1,0 +1,29 @@
+{
+  "name": "session-1",
+  "version": "1.0.0",
+  "description": "This is Namaste React Session",
+  "scripts": {
+    "test": "Jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RitikJ22/NamasteReact.git"
+  },
+  "author": "Ritik Jaiswal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RitikJ22/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/RitikJ22/NamasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
