@@ -1,3 +1,6 @@
+import { useState } from "react";
+
+
 export const Title = () => (
   <a href="/">
     <img
@@ -8,10 +11,15 @@ export const Title = () => (
   </a>
 );
 
+
+
+
+
 const Header = () => {
+  const [isLoggedIn ,setisLoggedIn]= useState(true);
   return (
     <>
-      <div className="flex justify-between m-6 border-4 border-black lg:items-center ">
+      <div className="flex justify-between m-6 border-4 border-black lg:items-center rounded-lg ">
         <Title />
         <div className="">
           <ul className="flex gap-4 lg:justify-between lg:items-center lg:gap-12 lg:mr-20">
@@ -21,7 +29,16 @@ const Header = () => {
             <li> Cart</li>
           </ul>
         </div>
-      </div>{" "}
+        
+
+          {
+           isLoggedIn ? 
+           (<button onClick ={()=> setisLoggedIn(false) } className="bg-gray-200 h-5">Logout</button> )
+           : ( <button onClick ={()=> setisLoggedIn(true) } className="bg-gray-200">Login </button>)
+          }
+          
+      
+      </div>
     </>
   );
 };

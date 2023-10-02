@@ -1,5 +1,5 @@
 {
-  "name": "session-1",
+  "name": "c",
   "version": "1.0.0",
   "description": "This is Namaste React Session",
   "scripts": {
@@ -27,7 +27,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-shimmer": "^3.2.0"
   },
   "browserslist": [
     "last 2 versions"
