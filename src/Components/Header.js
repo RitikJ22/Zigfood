@@ -1,11 +1,13 @@
 import { useState } from "react";
+import Logo from "../assets/img/Logo.png";
+import { Link } from "react-router-dom";
 
 
 export const Title = () => (
   <a href="/">
     <img
       className="w-16 ml-2"
-      src="https://i.pinimg.com/originals/82/be/d4/82bed479344270067e3d2171379949b3.png"
+      src={Logo}
       alt="logo"
     />
   </a>
@@ -23,9 +25,9 @@ const Header = () => {
         <Title />
         <div className="">
           <ul className="flex gap-4 lg:justify-between lg:items-center lg:gap-12 lg:mr-20">
-            <li> Home</li>
-            <li> About</li>
-            <li> Contact US</li>
+            <li> <Link to="/"> Home</Link></li>
+            <li>  <Link to="/about"> About</Link></li>
+            <li> <Link to="/contact">Contact US</Link></li>
             <li> Cart</li>
           </ul>
         </div>

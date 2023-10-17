@@ -2,6 +2,7 @@ import { restaurantList, newReslist } from "../Config";
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 //Searchbox logic
 function filterData(searchtText, restaurants) {
@@ -72,12 +73,15 @@ const Body = () => {
       </div>
       <div className="flex flex-wrap m-6">
         {/*write logic for no restaurant here*/ }
-        {filteredrestaurants.map((res) => {
-          return <RestaurantCard {...res?.info} key={res?.info?.id} />;
-        })}
+        {filteredrestaurants.map((res) => (
+            <Link key={res?.info?.id} to={"/restaurant/" + res?.info?.id}>
+            <RestaurantCard {...res?.info} />
+            </Link>
+        ))}
+          
       </div>
     </>
   );
-};
+}
 
 export default Body;

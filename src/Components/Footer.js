@@ -1,5 +1,8 @@
 const Footer = () => {
-  return <h4>Footer</h4>;
+  return (
+
+    <div className="w-auto h-20 text-center bg-gray-200 "> @RitikJaiswal</div>
+  );
 };
 
 export default Footer;
