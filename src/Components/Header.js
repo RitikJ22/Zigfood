@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/img/Logo.png";
 import { Link } from "react-router-dom";
+import basic from "./Login.js";
 
 
 export const Title = () => (
@@ -31,13 +32,17 @@ const Header = () => {
             <li> Cart</li>
           </ul>
         </div>
+
+        <div> 
+          <Link to="/login" ><button className=" h-5">Login</button></Link>
+        </div>
         
 
-          {
-           isLoggedIn ? 
+         
+       {/*} {isLoggedIn ? 
            (<button onClick ={()=> setisLoggedIn(false) } className="bg-gray-200 h-5">Logout</button> )
            : ( <button onClick ={()=> setisLoggedIn(true) } className="bg-gray-200">Login </button>)
-          }
+          } */}
           
       
       </div>
