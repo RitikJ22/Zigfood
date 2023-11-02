@@ -1,12 +1,13 @@
 export const IMG_CDN_URL =
   "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/";
 
-export const MENU_API = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=30.306468&lng=78.00312699999999&restaurantId=";
+export const MENU_API =
+  "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=30.306468&lng=78.00312699999999&restaurantId=";
 
 export const restaurantList = [
   {
     type: "restaurant",
-    data: { 
+    data: {
       type: "F",
       id: "648947",
       name: "Frozen Factory",
@@ -1554,1014 +1555,761 @@ export const restaurantList = [
   },
 ];
 
-
-export const newReslist =[
+export const newReslist = [
   {
-    "info": {
-      "id": "408505",
-      "name": "KFC",
-      "cloudinaryImageId": "56c9ab92bd79745fd152a30fa2525426",
-      "locality": "Sewla Kalan",
-      "areaName": "Morowala",
-      "costForTwo": "₹400 for two",
-      "cuisines": [
-        "Burgers",
-        "Biryani",
-        "American",
-        "Snacks",
-        "Fast Food"
-      ],
-      "avgRating": 4.1,
-      "feeDetails": {
-        "restaurantId": "408505",
-        "fees": [
+    info: {
+      id: "408505",
+      name: "KFC",
+      cloudinaryImageId: "56c9ab92bd79745fd152a30fa2525426",
+      locality: "Sewla Kalan",
+      areaName: "Morowala",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+      avgRating: 4.1,
+      feeDetails: {
+        restaurantId: "408505",
+        fees: [
           {
-            "name": "BASE_DISTANCE",
-            "fee": 2200
+            name: "BASE_DISTANCE",
+            fee: 2200,
           },
           {
-            "name": "BASE_TIME"
+            name: "BASE_TIME",
           },
           {
-            "name": "ANCILLARY_SURGE_FEE"
-          }
+            name: "ANCILLARY_SURGE_FEE",
+          },
         ],
-        "totalFee": 2200
+        totalFee: 2200,
       },
-      "parentId": "547",
-      "avgRatingString": "4.1",
-      "totalRatingsString": "1K+",
-      "sla": {
-        "deliveryTime": 23,
-        "lastMileTravel": 2.9,
-        "serviceability": "SERVICEABLE",
-        "slaString": "23 mins",
-        "lastMileTravelString": "2.9 km",
-        "iconType": "ICON_TYPE_EMPTY"
+      parentId: "547",
+      avgRatingString: "4.1",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 23,
+        lastMileTravel: 2.9,
+        serviceability: "SERVICEABLE",
+        slaString: "23 mins",
+        lastMileTravelString: "2.9 km",
+        iconType: "ICON_TYPE_EMPTY",
       },
-      "availability": {
-        "nextCloseTime": "2023-09-17 23:59:00",
-        "opened": true
+      availability: {
+        nextCloseTime: "2023-09-17 23:59:00",
+        opened: true,
       },
-      "badges": {
-        
-      },
-      "isOpen": true,
-      "type": "F",
-      "badgesV2": {
-        "entityBadges": {
-          "imageBased": {
-            
-          },
-          "textBased": {
-            
-          },
-          "textExtendedBadges": {
-            
-          }
-        }
-      },
-      "aggregatedDiscountInfoV3": {
-        "header": "40% OFF",
-        "subHeader": "UPTO ₹80"
-      },
-      "orderabilityCommunication": {
-        "title": {
-          
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
         },
-        "subTitle": {
-          
+      },
+      aggregatedDiscountInfoV3: {
+        header: "40% OFF",
+        subHeader: "UPTO ₹80",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        "message": {
-          
-        },
-        "customIcon": {
-          
-        }
       },
-      "differentiatedUi": {
-        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        "differentiatedUiMediaDetails": {
-          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-          "lottie": {
-            
-          },
-          "video": {
-            
-          }
-        }
-      },
-      "reviewsSummary": {
-        
-      },
-      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      "restaurantOfferPresentationInfo": {
-        
-      }
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
     },
-    "analytics": {
-      "context": "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5"
+    analytics: {
+      context: "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5",
     },
-    "cta": {
-      "link": "https://www.swiggy.com/restaurants/kfc-sewla-kalan-morowala-dehradun-408505",
-      "text": "RESTAURANT_MENU",
-      "type": "WEBLINK"
+    cta: {
+      link: "https://www.swiggy.com/restaurants/kfc-sewla-kalan-morowala-dehradun-408505",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
     },
-    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    "info": {
-      "id": "70061",
-      "name": "Domino's Pizza",
-      "cloudinaryImageId": "e2kpjajk0bvgpptuirpb",
-      "locality": "Vikas Cine Mall",
-      "areaName": "Balliwala",
-      "costForTwo": "₹300 for two",
-      "cuisines": [
-        "Pizzas",
-        "Italian",
-        "Pastas",
-        "Desserts"
-      ],
-      "avgRating": 4.2,
-      "feeDetails": {
-        "restaurantId": "70061",
-        "fees": [
+    info: {
+      id: "70061",
+      name: "Domino's Pizza",
+      cloudinaryImageId: "e2kpjajk0bvgpptuirpb",
+      locality: "Vikas Cine Mall",
+      areaName: "Balliwala",
+      costForTwo: "₹300 for two",
+      cuisines: ["Pizzas", "Italian", "Pastas", "Desserts"],
+      avgRating: 4.2,
+      feeDetails: {
+        restaurantId: "70061",
+        fees: [
           {
-            "name": "BASE_DISTANCE",
-            "fee": 2100
+            name: "BASE_DISTANCE",
+            fee: 2100,
           },
           {
-            "name": "BASE_TIME"
+            name: "BASE_TIME",
           },
           {
-            "name": "ANCILLARY_SURGE_FEE"
-          }
+            name: "ANCILLARY_SURGE_FEE",
+          },
         ],
-        "totalFee": 2100
+        totalFee: 2100,
       },
-      "parentId": "2456",
-      "avgRatingString": "4.2",
-      "totalRatingsString": "1K+",
-      "sla": {
-        "deliveryTime": 25,
-        "serviceability": "SERVICEABLE",
-        "slaString": "25 mins",
-        "iconType": "ICON_TYPE_EMPTY"
+      parentId: "2456",
+      avgRatingString: "4.2",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 25,
+        serviceability: "SERVICEABLE",
+        slaString: "25 mins",
+        iconType: "ICON_TYPE_EMPTY",
       },
-      "availability": {
-        "nextCloseTime": "2023-09-17 23:55:00",
-        "opened": true
+      availability: {
+        nextCloseTime: "2023-09-17 23:55:00",
+        opened: true,
       },
-      "badges": {
-        
-      },
-      "isOpen": true,
-      "type": "F",
-      "badgesV2": {
-        "entityBadges": {
-          "imageBased": {
-            
-          },
-          "textBased": {
-            
-          },
-          "textExtendedBadges": {
-            
-          }
-        }
-      },
-      "aggregatedDiscountInfoV3": {
-        "header": "₹150 OFF",
-        "subHeader": "ABOVE ₹999",
-        "discountTag": "FLAT DEAL"
-      },
-      "orderabilityCommunication": {
-        "title": {
-          
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
         },
-        "subTitle": {
-          
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹150 OFF",
+        subHeader: "ABOVE ₹999",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        "message": {
-          
-        },
-        "customIcon": {
-          
-        }
       },
-      "differentiatedUi": {
-        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        "differentiatedUiMediaDetails": {
-          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-          "lottie": {
-            
-          },
-          "video": {
-            
-          }
-        }
-      },
-      "reviewsSummary": {
-        
-      },
-      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      "restaurantOfferPresentationInfo": {
-        
-      }
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
     },
-    "analytics": {
-      "context": "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5"
+    analytics: {
+      context: "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5",
     },
-    "cta": {
-      "link": "https://www.swiggy.com/restaurants/dominos-pizza-vikas-cine-mall-balliwala-dehradun-70061",
-      "text": "RESTAURANT_MENU",
-      "type": "WEBLINK"
+    cta: {
+      link: "https://www.swiggy.com/restaurants/dominos-pizza-vikas-cine-mall-balliwala-dehradun-70061",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
     },
-    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    "info": {
-      "id": "413821",
-      "name": "Pizza Hut",
-      "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
-      "locality": "Saharanpur Road",
-      "areaName": "Majra",
-      "costForTwo": "₹350 for two",
-      "cuisines": [
-        "Pizzas"
-      ],
-      "avgRating": 3.8,
-      "feeDetails": {
-        "restaurantId": "413821",
-        "fees": [
+    info: {
+      id: "413821",
+      name: "Pizza Hut",
+      cloudinaryImageId: "2b4f62d606d1b2bfba9ba9e5386fabb7",
+      locality: "Saharanpur Road",
+      areaName: "Majra",
+      costForTwo: "₹350 for two",
+      cuisines: ["Pizzas"],
+      avgRating: 3.8,
+      feeDetails: {
+        restaurantId: "413821",
+        fees: [
           {
-            "name": "BASE_DISTANCE",
-            "fee": 2200
+            name: "BASE_DISTANCE",
+            fee: 2200,
           },
           {
-            "name": "BASE_TIME"
+            name: "BASE_TIME",
           },
           {
-            "name": "ANCILLARY_SURGE_FEE"
-          }
+            name: "ANCILLARY_SURGE_FEE",
+          },
         ],
-        "totalFee": 2200
+        totalFee: 2200,
       },
-      "parentId": "721",
-      "avgRatingString": "3.8",
-      "totalRatingsString": "1K+",
-      "sla": {
-        "deliveryTime": 25,
-        "lastMileTravel": 1.7,
-        "serviceability": "SERVICEABLE",
-        "slaString": "25 mins",
-        "lastMileTravelString": "1.7 km",
-        "iconType": "ICON_TYPE_EMPTY"
+      parentId: "721",
+      avgRatingString: "3.8",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 25,
+        lastMileTravel: 1.7,
+        serviceability: "SERVICEABLE",
+        slaString: "25 mins",
+        lastMileTravelString: "1.7 km",
+        iconType: "ICON_TYPE_EMPTY",
       },
-      "availability": {
-        "nextCloseTime": "2023-09-17 23:00:00",
-        "opened": true
+      availability: {
+        nextCloseTime: "2023-09-17 23:00:00",
+        opened: true,
       },
-      "badges": {
-        
-      },
-      "isOpen": true,
-      "type": "F",
-      "badgesV2": {
-        "entityBadges": {
-          "imageBased": {
-            
-          },
-          "textBased": {
-            
-          },
-          "textExtendedBadges": {
-            
-          }
-        }
-      },
-      "aggregatedDiscountInfoV3": {
-        "header": "60% OFF",
-        "subHeader": "UPTO ₹120"
-      },
-      "orderabilityCommunication": {
-        "title": {
-          
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
         },
-        "subTitle": {
-          
+      },
+      aggregatedDiscountInfoV3: {
+        header: "60% OFF",
+        subHeader: "UPTO ₹120",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        "message": {
-          
-        },
-        "customIcon": {
-          
-        }
       },
-      "differentiatedUi": {
-        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        "differentiatedUiMediaDetails": {
-          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-          "lottie": {
-            
-          },
-          "video": {
-            
-          }
-        }
-      },
-      "reviewsSummary": {
-        
-      },
-      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      "restaurantOfferPresentationInfo": {
-        
-      }
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
     },
-    "analytics": {
-      "context": "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5"
+    analytics: {
+      context: "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5",
     },
-    "cta": {
-      "link": "https://www.swiggy.com/restaurants/pizza-hut-saharanpur-road-majra-dehradun-413821",
-      "text": "RESTAURANT_MENU",
-      "type": "WEBLINK"
+    cta: {
+      link: "https://www.swiggy.com/restaurants/pizza-hut-saharanpur-road-majra-dehradun-413821",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
     },
-    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    "info": {
-      "id": "281404",
-      "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
-      "cloudinaryImageId": "yfylnzwg8rcnk8alvitm",
-      "locality": "Gandhi Road",
-      "areaName": "Paltan Bazaar",
-      "costForTwo": "₹100 for two",
-      "cuisines": [
-        "Desserts",
-        "Ice Cream",
-        "Ice Cream Cakes"
-      ],
-      "avgRating": 4.7,
-      "veg": true,
-      "feeDetails": {
-        "restaurantId": "281404",
-        "fees": [
+    info: {
+      id: "281404",
+      name: "Kwality Walls Frozen Dessert and Ice Cream Shop",
+      cloudinaryImageId: "yfylnzwg8rcnk8alvitm",
+      locality: "Gandhi Road",
+      areaName: "Paltan Bazaar",
+      costForTwo: "₹100 for two",
+      cuisines: ["Desserts", "Ice Cream", "Ice Cream Cakes"],
+      avgRating: 4.7,
+      veg: true,
+      feeDetails: {
+        restaurantId: "281404",
+        fees: [
           {
-            "name": "ANCILLARY_SURGE_FEE"
+            name: "ANCILLARY_SURGE_FEE",
           },
           {
-            "name": "BASE_DISTANCE",
-            "fee": 2600
+            name: "BASE_DISTANCE",
+            fee: 2600,
           },
           {
-            "name": "BASE_TIME"
-          }
+            name: "BASE_TIME",
+          },
         ],
-        "totalFee": 2600
+        totalFee: 2600,
       },
-      "parentId": "582",
-      "avgRatingString": "4.7",
-      "totalRatingsString": "1K+",
-      "sla": {
-        "deliveryTime": 29,
-        "lastMileTravel": 4.9,
-        "serviceability": "SERVICEABLE",
-        "slaString": "29 mins",
-        "lastMileTravelString": "4.9 km",
-        "iconType": "ICON_TYPE_EMPTY"
+      parentId: "582",
+      avgRatingString: "4.7",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 29,
+        lastMileTravel: 4.9,
+        serviceability: "SERVICEABLE",
+        slaString: "29 mins",
+        lastMileTravelString: "4.9 km",
+        iconType: "ICON_TYPE_EMPTY",
       },
-      "availability": {
-        "nextCloseTime": "2023-09-17 22:15:00",
-        "opened": true
+      availability: {
+        nextCloseTime: "2023-09-17 22:15:00",
+        opened: true,
       },
-      "badges": {
-        
-      },
-      "isOpen": true,
-      "aggregatedDiscountInfoV2": {
-        
-      },
-      "type": "F",
-      "badgesV2": {
-        "entityBadges": {
-          "imageBased": {
-            
-          },
-          "textBased": {
-            
-          },
-          "textExtendedBadges": {
-            
-          }
-        }
-      },
-      "orderabilityCommunication": {
-        "title": {
-          
+      badges: {},
+      isOpen: true,
+      aggregatedDiscountInfoV2: {},
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
         },
-        "subTitle": {
-          
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        "message": {
-          
-        },
-        "customIcon": {
-          
-        }
       },
-      "differentiatedUi": {
-        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        "differentiatedUiMediaDetails": {
-          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-          "lottie": {
-            
-          },
-          "video": {
-            
-          }
-        }
-      },
-      "reviewsSummary": {
-        
-      },
-      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      "restaurantOfferPresentationInfo": {
-        
-      }
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
     },
-    "analytics": {
-      "context": "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5"
+    analytics: {
+      context: "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5",
     },
-    "cta": {
-      "link": "https://www.swiggy.com/restaurants/kwality-walls-frozen-dessert-and-ice-cream-shop-gandhi-road-paltan-bazaar-dehradun-281404",
-      "text": "RESTAURANT_MENU",
-      "type": "WEBLINK"
+    cta: {
+      link: "https://www.swiggy.com/restaurants/kwality-walls-frozen-dessert-and-ice-cream-shop-gandhi-road-paltan-bazaar-dehradun-281404",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
     },
-    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    "info": {
-      "id": "69772",
-      "name": "Baskin Robbins - Ice Cream Desserts",
-      "cloudinaryImageId": "85ccae4e3576f9330af102c46ca85395",
-      "locality": "Rajpur Road",
-      "areaName": "Karanpur",
-      "costForTwo": "₹200 for two",
-      "cuisines": [
-        "Ice Cream",
-        "Bakery",
-        "Beverages"
-      ],
-      "avgRating": 4.1,
-      "veg": true,
-      "feeDetails": {
-        "restaurantId": "69772",
-        "fees": [
+    info: {
+      id: "69772",
+      name: "Baskin Robbins - Ice Cream Desserts",
+      cloudinaryImageId: "85ccae4e3576f9330af102c46ca85395",
+      locality: "Rajpur Road",
+      areaName: "Karanpur",
+      costForTwo: "₹200 for two",
+      cuisines: ["Ice Cream", "Bakery", "Beverages"],
+      avgRating: 4.1,
+      veg: true,
+      feeDetails: {
+        restaurantId: "69772",
+        fees: [
           {
-            "name": "BASE_DISTANCE",
-            "fee": 3700
+            name: "BASE_DISTANCE",
+            fee: 3700,
           },
           {
-            "name": "ANCILLARY_SURGE_FEE"
+            name: "ANCILLARY_SURGE_FEE",
           },
           {
-            "name": "BASE_TIME"
-          }
+            name: "BASE_TIME",
+          },
         ],
-        "totalFee": 3700
+        totalFee: 3700,
       },
-      "parentId": "5588",
-      "avgRatingString": "4.1",
-      "totalRatingsString": "1K+",
-      "sla": {
-        "deliveryTime": 31,
-        "lastMileTravel": 5.7,
-        "serviceability": "SERVICEABLE",
-        "slaString": "31 mins",
-        "lastMileTravelString": "5.7 km",
-        "iconType": "ICON_TYPE_EMPTY"
+      parentId: "5588",
+      avgRatingString: "4.1",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 31,
+        lastMileTravel: 5.7,
+        serviceability: "SERVICEABLE",
+        slaString: "31 mins",
+        lastMileTravelString: "5.7 km",
+        iconType: "ICON_TYPE_EMPTY",
       },
-      "availability": {
-        "nextCloseTime": "2023-09-18 02:00:00",
-        "opened": true
+      availability: {
+        nextCloseTime: "2023-09-18 02:00:00",
+        opened: true,
       },
-      "badges": {
-        
-      },
-      "isOpen": true,
-      "type": "F",
-      "badgesV2": {
-        "entityBadges": {
-          "imageBased": {
-            
-          },
-          "textBased": {
-            
-          },
-          "textExtendedBadges": {
-            
-          }
-        }
-      },
-      "aggregatedDiscountInfoV3": {
-        "header": "20% OFF",
-        "subHeader": "UPTO ₹50"
-      },
-      "orderabilityCommunication": {
-        "title": {
-          
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
         },
-        "subTitle": {
-          
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        "message": {
-          
-        },
-        "customIcon": {
-          
-        }
       },
-      "differentiatedUi": {
-        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        "differentiatedUiMediaDetails": {
-          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-          "lottie": {
-            
-          },
-          "video": {
-            
-          }
-        }
-      },
-      "reviewsSummary": {
-        
-      },
-      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      "restaurantOfferPresentationInfo": {
-        
-      }
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
     },
-    "analytics": {
-      "context": "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5"
+    analytics: {
+      context: "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5",
     },
-    "cta": {
-      "link": "https://www.swiggy.com/restaurants/baskin-robbins-ice-cream-desserts-rajpur-road-karanpur-dehradun-69772",
-      "text": "RESTAURANT_MENU",
-      "type": "WEBLINK"
+    cta: {
+      link: "https://www.swiggy.com/restaurants/baskin-robbins-ice-cream-desserts-rajpur-road-karanpur-dehradun-69772",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
     },
-    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    "info": {
-      "id": "392205",
-      "name": "Rollsking",
-      "cloudinaryImageId": "exgmqcruwrk8wwxny1ot",
-      "locality": "Rajpur Road",
-      "areaName": "Subhash Nagar",
-      "costForTwo": "₹200 for two",
-      "cuisines": [
-        "North Indian",
-        "Fast Food",
-        "Beverages"
-      ],
-      "avgRating": 3.9,
-      "feeDetails": {
-        "restaurantId": "392205",
-        "fees": [
+    info: {
+      id: "392205",
+      name: "Rollsking",
+      cloudinaryImageId: "exgmqcruwrk8wwxny1ot",
+      locality: "Rajpur Road",
+      areaName: "Subhash Nagar",
+      costForTwo: "₹200 for two",
+      cuisines: ["North Indian", "Fast Food", "Beverages"],
+      avgRating: 3.9,
+      feeDetails: {
+        restaurantId: "392205",
+        fees: [
           {
-            "name": "BASE_DISTANCE",
-            "fee": 2600
+            name: "BASE_DISTANCE",
+            fee: 2600,
           },
           {
-            "name": "BASE_TIME"
+            name: "BASE_TIME",
           },
           {
-            "name": "ANCILLARY_SURGE_FEE"
-          }
+            name: "ANCILLARY_SURGE_FEE",
+          },
         ],
-        "totalFee": 2600
+        totalFee: 2600,
       },
-      "parentId": "4697",
-      "avgRatingString": "3.9",
-      "totalRatingsString": "500+",
-      "sla": {
-        "deliveryTime": 28,
-        "lastMileTravel": 4.6,
-        "serviceability": "SERVICEABLE",
-        "slaString": "28 mins",
-        "lastMileTravelString": "4.6 km",
-        "iconType": "ICON_TYPE_EMPTY"
+      parentId: "4697",
+      avgRatingString: "3.9",
+      totalRatingsString: "500+",
+      sla: {
+        deliveryTime: 28,
+        lastMileTravel: 4.6,
+        serviceability: "SERVICEABLE",
+        slaString: "28 mins",
+        lastMileTravelString: "4.6 km",
+        iconType: "ICON_TYPE_EMPTY",
       },
-      "availability": {
-        "nextCloseTime": "2023-09-17 23:00:00",
-        "opened": true
+      availability: {
+        nextCloseTime: "2023-09-17 23:00:00",
+        opened: true,
       },
-      "badges": {
-        
-      },
-      "isOpen": true,
-      "type": "F",
-      "badgesV2": {
-        "entityBadges": {
-          "imageBased": {
-            
-          },
-          "textBased": {
-            
-          },
-          "textExtendedBadges": {
-            
-          }
-        }
-      },
-      "aggregatedDiscountInfoV3": {
-        "header": "50% OFF",
-        "subHeader": "UPTO ₹100"
-      },
-      "orderabilityCommunication": {
-        "title": {
-          
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
         },
-        "subTitle": {
-          
+      },
+      aggregatedDiscountInfoV3: {
+        header: "50% OFF",
+        subHeader: "UPTO ₹100",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        "message": {
-          
-        },
-        "customIcon": {
-          
-        }
       },
-      "differentiatedUi": {
-        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        "differentiatedUiMediaDetails": {
-          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-          "lottie": {
-            
-          },
-          "video": {
-            
-          }
-        }
-      },
-      "reviewsSummary": {
-        
-      },
-      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      "restaurantOfferPresentationInfo": {
-        
-      }
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
     },
-    "analytics": {
-      "context": "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5"
+    analytics: {
+      context: "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5",
     },
-    "cta": {
-      "link": "https://www.swiggy.com/restaurants/rollsking-rajpur-road-subhash-nagar-dehradun-392205",
-      "text": "RESTAURANT_MENU",
-      "type": "WEBLINK"
+    cta: {
+      link: "https://www.swiggy.com/restaurants/rollsking-rajpur-road-subhash-nagar-dehradun-392205",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
     },
-    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    "info": {
-      "id": "691805",
-      "name": "UBQ by Barbeque Nation",
-      "cloudinaryImageId": "0d36ee943be5611d610ec9864b1bcf51",
-      "locality": "Kamla Palace",
-      "areaName": "GMS Road",
-      "costForTwo": "₹300 for two",
-      "cuisines": [
+    info: {
+      id: "691805",
+      name: "UBQ by Barbeque Nation",
+      cloudinaryImageId: "0d36ee943be5611d610ec9864b1bcf51",
+      locality: "Kamla Palace",
+      areaName: "GMS Road",
+      costForTwo: "₹300 for two",
+      cuisines: [
         "North Indian",
         "Barbecue",
         "Biryani",
         "Kebabs",
         "Mughlai",
-        "Desserts"
+        "Desserts",
       ],
-      "avgRating": 3.7,
-      "feeDetails": {
-        "restaurantId": "691805",
-        "fees": [
+      avgRating: 3.7,
+      feeDetails: {
+        restaurantId: "691805",
+        fees: [
           {
-            "name": "BASE_DISTANCE",
-            "fee": 2100
+            name: "BASE_DISTANCE",
+            fee: 2100,
           },
           {
-            "name": "BASE_TIME"
+            name: "BASE_TIME",
           },
           {
-            "name": "ANCILLARY_SURGE_FEE"
-          }
+            name: "ANCILLARY_SURGE_FEE",
+          },
         ],
-        "totalFee": 2100
+        totalFee: 2100,
       },
-      "parentId": "10804",
-      "avgRatingString": "3.7",
-      "totalRatingsString": "100+",
-      "sla": {
-        "deliveryTime": 33,
-        "lastMileTravel": 0.7,
-        "serviceability": "SERVICEABLE",
-        "slaString": "33 mins",
-        "lastMileTravelString": "0.7 km",
-        "iconType": "ICON_TYPE_EMPTY"
+      parentId: "10804",
+      avgRatingString: "3.7",
+      totalRatingsString: "100+",
+      sla: {
+        deliveryTime: 33,
+        lastMileTravel: 0.7,
+        serviceability: "SERVICEABLE",
+        slaString: "33 mins",
+        lastMileTravelString: "0.7 km",
+        iconType: "ICON_TYPE_EMPTY",
       },
-      "availability": {
-        "nextCloseTime": "2023-09-17 23:30:00",
-        "opened": true
+      availability: {
+        nextCloseTime: "2023-09-17 23:30:00",
+        opened: true,
       },
-      "badges": {
-        
-      },
-      "isOpen": true,
-      "type": "F",
-      "badgesV2": {
-        "entityBadges": {
-          "imageBased": {
-            
-          },
-          "textBased": {
-            
-          },
-          "textExtendedBadges": {
-            
-          }
-        }
-      },
-      "aggregatedDiscountInfoV3": {
-        "header": "20% OFF",
-        "subHeader": "UPTO ₹50"
-      },
-      "orderabilityCommunication": {
-        "title": {
-          
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
         },
-        "subTitle": {
-          
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        "message": {
-          
-        },
-        "customIcon": {
-          
-        }
       },
-      "differentiatedUi": {
-        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        "differentiatedUiMediaDetails": {
-          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-          "lottie": {
-            
-          },
-          "video": {
-            
-          }
-        }
-      },
-      "reviewsSummary": {
-        
-      },
-      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      "isNewlyOnboarded": true,
-      "restaurantOfferPresentationInfo": {
-        
-      }
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      isNewlyOnboarded: true,
+      restaurantOfferPresentationInfo: {},
     },
-    "analytics": {
-      "context": "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5"
+    analytics: {
+      context: "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5",
     },
-    "cta": {
-      "link": "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-kamla-palace-gms-road-dehradun-691805",
-      "text": "RESTAURANT_MENU",
-      "type": "WEBLINK"
+    cta: {
+      link: "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-kamla-palace-gms-road-dehradun-691805",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
     },
-    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    "info": {
-      "id": "532213",
-      "name": "Chilli'Z Restro",
-      "cloudinaryImageId": "mzsuzzznrww2mpzwk27d",
-      "locality": "Prem Nagar",
-      "areaName": "Prem Nagar",
-      "costForTwo": "₹300 for two",
-      "cuisines": [
-        "North Indian",
-        "Chinese",
-        "Snacks",
-        "Beverages"
-      ],
-      "avgRating": 3.8,
-      "feeDetails": {
-        "restaurantId": "532213",
-        "fees": [
+    info: {
+      id: "532213",
+      name: "Chilli'Z Restro",
+      cloudinaryImageId: "mzsuzzznrww2mpzwk27d",
+      locality: "Prem Nagar",
+      areaName: "Prem Nagar",
+      costForTwo: "₹300 for two",
+      cuisines: ["North Indian", "Chinese", "Snacks", "Beverages"],
+      avgRating: 3.8,
+      feeDetails: {
+        restaurantId: "532213",
+        fees: [
           {
-            "name": "BASE_DISTANCE",
-            "fee": 2100
+            name: "BASE_DISTANCE",
+            fee: 2100,
           },
           {
-            "name": "BASE_TIME"
+            name: "BASE_TIME",
           },
           {
-            "name": "ANCILLARY_SURGE_FEE"
-          }
+            name: "ANCILLARY_SURGE_FEE",
+          },
         ],
-        "totalFee": 2100
+        totalFee: 2100,
       },
-      "parentId": "13645",
-      "avgRatingString": "3.8",
-      "totalRatingsString": "1K+",
-      "sla": {
-        "deliveryTime": 22,
-        "lastMileTravel": 2.1,
-        "serviceability": "SERVICEABLE",
-        "slaString": "22 mins",
-        "lastMileTravelString": "2.1 km",
-        "iconType": "ICON_TYPE_EMPTY"
+      parentId: "13645",
+      avgRatingString: "3.8",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 22,
+        lastMileTravel: 2.1,
+        serviceability: "SERVICEABLE",
+        slaString: "22 mins",
+        lastMileTravelString: "2.1 km",
+        iconType: "ICON_TYPE_EMPTY",
       },
-      "availability": {
-        "nextCloseTime": "2023-09-17 23:50:00",
-        "opened": true
+      availability: {
+        nextCloseTime: "2023-09-17 23:50:00",
+        opened: true,
       },
-      "badges": {
-        
-      },
-      "isOpen": true,
-      "type": "F",
-      "badgesV2": {
-        "entityBadges": {
-          "imageBased": {
-            
-          },
-          "textBased": {
-            
-          },
-          "textExtendedBadges": {
-            
-          }
-        }
-      },
-      "aggregatedDiscountInfoV3": {
-        "header": "₹125 OFF",
-        "subHeader": "ABOVE ₹249",
-        "discountTag": "FLAT DEAL"
-      },
-      "orderabilityCommunication": {
-        "title": {
-          
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
         },
-        "subTitle": {
-          
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹125 OFF",
+        subHeader: "ABOVE ₹249",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        "message": {
-          
-        },
-        "customIcon": {
-          
-        }
       },
-      "differentiatedUi": {
-        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        "differentiatedUiMediaDetails": {
-          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-          "lottie": {
-            
-          },
-          "video": {
-            
-          }
-        }
-      },
-      "reviewsSummary": {
-        
-      },
-      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      "restaurantOfferPresentationInfo": {
-        
-      }
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
     },
-    "analytics": {
-      "context": "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5"
+    analytics: {
+      context: "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5",
     },
-    "cta": {
-      "link": "https://www.swiggy.com/restaurants/chilliz-restro-prem-nagar-dehradun-532213",
-      "text": "RESTAURANT_MENU",
-      "type": "WEBLINK"
+    cta: {
+      link: "https://www.swiggy.com/restaurants/chilliz-restro-prem-nagar-dehradun-532213",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
     },
-    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
   },
   {
-    "info": {
-      "id": "371422",
-      "name": "Handi punjab ki",
-      "cloudinaryImageId": "vozwrqdkvfcfutehx4ld",
-      "locality": "Rajpur Road",
-      "areaName": "Hathibarkala Salwala",
-      "costForTwo": "₹250 for two",
-      "cuisines": [
-        "North Indian",
-        "Chinese",
-        "Tandoor"
-      ],
-      "avgRating": 4.1,
-      "veg": true,
-      "feeDetails": {
-        "restaurantId": "371422",
-        "fees": [
+    info: {
+      id: "371422",
+      name: "Handi punjab ki",
+      cloudinaryImageId: "vozwrqdkvfcfutehx4ld",
+      locality: "Rajpur Road",
+      areaName: "Hathibarkala Salwala",
+      costForTwo: "₹250 for two",
+      cuisines: ["North Indian", "Chinese", "Tandoor"],
+      avgRating: 4.1,
+      veg: true,
+      feeDetails: {
+        restaurantId: "371422",
+        fees: [
           {
-            "name": "BASE_DISTANCE",
-            "fee": 4400
+            name: "BASE_DISTANCE",
+            fee: 4400,
           },
           {
-            "name": "BASE_TIME"
+            name: "BASE_TIME",
           },
           {
-            "name": "ANCILLARY_SURGE_FEE"
-          }
+            name: "ANCILLARY_SURGE_FEE",
+          },
         ],
-        "totalFee": 4400
+        totalFee: 4400,
       },
-      "parentId": "93115",
-      "avgRatingString": "4.1",
-      "totalRatingsString": "10K+",
-      "sla": {
-        "deliveryTime": 34,
-        "lastMileTravel": 6.9,
-        "serviceability": "SERVICEABLE",
-        "slaString": "34 mins",
-        "lastMileTravelString": "6.9 km",
-        "iconType": "ICON_TYPE_EMPTY"
+      parentId: "93115",
+      avgRatingString: "4.1",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 34,
+        lastMileTravel: 6.9,
+        serviceability: "SERVICEABLE",
+        slaString: "34 mins",
+        lastMileTravelString: "6.9 km",
+        iconType: "ICON_TYPE_EMPTY",
       },
-      "availability": {
-        "nextCloseTime": "2023-09-17 17:30:00",
-        "opened": true
+      availability: {
+        nextCloseTime: "2023-09-17 17:30:00",
+        opened: true,
       },
-      "badges": {
-        
-      },
-      "isOpen": true,
-      "type": "F",
-      "badgesV2": {
-        "entityBadges": {
-          "imageBased": {
-            
-          },
-          "textBased": {
-            
-          },
-          "textExtendedBadges": {
-            
-          }
-        }
-      },
-      "aggregatedDiscountInfoV3": {
-        "header": "₹125 OFF",
-        "subHeader": "ABOVE ₹249",
-        "discountTag": "FLAT DEAL"
-      },
-      "orderabilityCommunication": {
-        "title": {
-          
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
         },
-        "subTitle": {
-          
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹125 OFF",
+        subHeader: "ABOVE ₹249",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        "message": {
-          
-        },
-        "customIcon": {
-          
-        }
       },
-      "differentiatedUi": {
-        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        "differentiatedUiMediaDetails": {
-          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-          "lottie": {
-            
-          },
-          "video": {
-            
-          }
-        }
-      },
-      "reviewsSummary": {
-        
-      },
-      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      "restaurantOfferPresentationInfo": {
-        
-      }
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
     },
-    "analytics": {
-      "context": "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5"
+    analytics: {
+      context: "seo-data-b4f87fa1-d812-40c2-a052-bc66d86d7de5",
     },
-    "cta": {
-      "link": "https://www.swiggy.com/restaurants/handi-punjab-ki-rajpur-road-hathibarkala-salwala-dehradun-371422",
-      "text": "RESTAURANT_MENU",
-      "type": "WEBLINK"
+    cta: {
+      link: "https://www.swiggy.com/restaurants/handi-punjab-ki-rajpur-road-hathibarkala-salwala-dehradun-371422",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
     },
-    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-  }
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
 ];
