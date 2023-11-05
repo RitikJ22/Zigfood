@@ -1,26 +1,16 @@
-import { useEffect, useState } from "react";
+
 import { useParams } from "react-router-dom";
-import { IMG_CDN_URL } from "../Config.js";
+import { IMG_CDN_URL } from "../utils/Config.js";
+import useRestaurantMenu from "../utils/useRestaurantMenu.js";
 import Shimmer from "./Shimmer.js";
-import { MENU_API } from "../Config.js";
+
 
 const RestaurantMenu = () => {
   const params = useParams();
   //to read a dynamic URL params
   const { id } = params;
 
-  const [restaurantData, setRestaurantData] = useState(null);
-
-  useEffect(() => {
-    getRestaurantInfo();
-  }, []);
-
-  async function getRestaurantInfo() {
-    const data = await fetch(MENU_API + id);
-    const json = await data.json();
-    setRestaurantData(json?.data);
-    console.log(json?.data);
-  }
+  const restaurantData= useRestaurantMenu(id);
 
   if (restaurantData === null) return <Shimmer />;
 

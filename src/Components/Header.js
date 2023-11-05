@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/img/Logo.png";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 import basic from "./Login.js";
 
 export const Title = () => (
@@ -11,6 +12,7 @@ export const Title = () => (
 
 const Header = () => {
   const [isLoggedIn, setisLoggedIn] = useState(true);
+  const onlineStatus=useOnlineStatus();
   return (
     <>
     <header>
@@ -18,6 +20,9 @@ const Header = () => {
         <Title />
         <div className="">
           <ul className="flex gap-4 lg:justify-between lg:items-center lg:gap-12 lg:mr-20">
+          <li>
+              Onlinestatus:{onlineStatus===true ? "Y" : "N"}
+            </li>
             <li>
               {" "}
               <Link to="/"> Home</Link>
