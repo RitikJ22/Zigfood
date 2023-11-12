@@ -12,14 +12,15 @@ const RestaurantCard = ({
   //const { cloudinaryImageId , name , cuisines , avgRating , lastMileTravelString } = restaurant.data;
 
   return (
-    <div className="m-2 p-4 justify-items-center w-[300px] rounded-lg bg-gray-100 hover:bg-gray-200">
+    <div className="m-2 p-4 justify-items-center w-[300px]  duration-300 hover:scale-105 hover:border-b-4
+    max-w-md max-h-[450] bg-white shadow-md rounded-md overflow-hidden">
       <img
-        className="rounded-lg w-64 h-72 "
+        className="w-full h-48 object-cover"
         src={IMG_CDN_URL + cloudinaryImageId}
       />
 
-      <h2 className="font-bold py-4 text-lg">{name}</h2>
-      <h4 className="">{cuisines?.join(" ,")}</h4>
+      <h2 className="font-bold py-4 text-lg whitespace-nowrap">{name}</h2>
+      <h4 className="whitespace-nowrap">{cuisines?.join(" ,")}</h4>
       <h4> {avgRating}Stars</h4>
       <h4>{costForTwo} </h4>
       <h4>{deliveryTime} minutes</h4>

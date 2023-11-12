@@ -32,24 +32,35 @@ const RestaurantMenu = () => {
 
   return (
     <>
-      <div className="flex justify-around">
-        <div>
-          <h1> RestaurantMenu :{id} </h1>
-          <h1> {name}</h1>
+      <div className="flex  bg-white mb-14 mt-14  ">
+
+        {/* Menu card */}
+        <div className="max-w-md shadow-md bg-white text-center mx-32  rounded-md
+          duration-300 hover:scale-105 hover:border-b-4 ">
+          <h1 className="text-xl font-semibold mb-2 text-center p-7"> {name} :{id} </h1>
+         
           <img
-            className="rounded-lg w-64 h-72 "
+            className="w-full h-60 "
             src={IMG_CDN_URL + cloudinaryImageId}
           />
-          <h2>{city} </h2>
-          <h2>{areaName} </h2>
-          <h2> {avgRating}Stars</h2>
-          <h2>{costForTwoMessage} </h2>
-        </div>
-        <div>
-          <h1>MENU</h1>
-          <ul>
-            {itemCards.map((item) => (
-              <li key={item?.card?.info?.id}>
+
+          {/* <h2 className="text-lg font-semibold">{areaName} </h2> */}
+          <div>
+          <div className="flex justify-between p-3">
+          <h2 className="text-lg font-semibold">{areaName} ,{city}</h2>
+          <h2 className="text-lg font-semibold">{avgRating}Star</h2>
+          </div>
+          <h2 className="text-lg font-semibold text-left pl-3">{costForTwoMessage} </h2></div>
+
+          </div>
+          
+
+        {/* //menuitems */}
+        <div className="mx-32">
+          <h1 className="text-xl font-semibold mb-4">MENU</h1>
+          <ul className="list-disc pl-4">
+            {itemCards?.map((item) => (
+              <li className="" key={item?.card?.info?.id}>
                 {item?.card?.info?.name}-{"Rs."} {item?.card?.info?.price / 100}
               </li>
             ))}
