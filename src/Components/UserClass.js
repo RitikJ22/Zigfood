@@ -23,7 +23,7 @@ class UserClass extends React.Component{
 
    async componentDidMount(){
    // console.log("CDM");
-   const data= await fetch("https://api.github.com/users/RitikJ22");
+   const data= await fetch("https://corsproxy.io/?https://api.github.com/users/RitikJ22");
    const json= await data.json();
    console.log(json);
 

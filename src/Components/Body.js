@@ -30,7 +30,7 @@ const Body = () => {
   //API CALL
   async function getRestaurants() {
     const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=27.2029674&lng=77.9888538&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+      "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=27.2029674&lng=77.9888538&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
     console.log(json);
