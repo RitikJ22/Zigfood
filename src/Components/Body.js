@@ -1,5 +1,5 @@
 import { restaurantList, newReslist } from "../utils/Config";
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
@@ -20,6 +20,7 @@ const Body = () => {
   const [filteredrestaurants, setFilteredRestaurants] = useState([]);
   const [searchtText, setsearchtText] = useState("");
   const onlineStatus = useOnlineStatus ();
+  const RestaurantCardPromoted = withPromotedLabel( RestaurantCard);
 
   
 
@@ -35,14 +36,24 @@ const Body = () => {
     const json = await data.json();
     console.log(json);
 
+    let list = json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+    if (list === undefined) {
+      list = json?.data?.cards[3]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+    }
+
+    console.log(list); 
+ 
+
     //optional chaining
     setAllRestaurants(
-      json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+      list
     );
     //Maintained 2 sets of data at same time
     setFilteredRestaurants(
-      json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants
-    );
+      list
+    );  
+
+   
   }
 
   if (onlineStatus === false)
@@ -129,7 +140,8 @@ const Body = () => {
         {/*write logic for no restaurant here*/}
         {filteredrestaurants.map((res) => (
           <Link key={res?.info?.id} to={"/restaurant/" + res?.info?.id}>
-            <RestaurantCard {...res?.info} />
+            {  res?.info?.promoted ? <RestaurantCardPromoted {...res?.info}/> : <RestaurantCard {...res?.info} />}
+            
           </Link>
         ))}
       </div>

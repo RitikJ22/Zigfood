@@ -6,8 +6,8 @@ const RestaurantCard = ({
   cuisines,
   avgRating,
   costForTwo,
-  deliveryTime,
-  lastMileTravelString,
+  sla,
+  
 }) => {
   //const { cloudinaryImageId , name , cuisines , avgRating , lastMileTravelString } = restaurant.data;
 
@@ -23,10 +23,22 @@ const RestaurantCard = ({
       <h4 className="whitespace-nowrap">{cuisines?.join(" ,")}</h4>
       <h4> {avgRating}Stars</h4>
       <h4>{costForTwo} </h4>
-      <h4>{deliveryTime} minutes</h4>
-      <h4>{lastMileTravelString}Away</h4>
+      <h4>{sla.slaString} </h4>
+      <h4>{sla.lastMileTravelString}Away</h4>
     </div>
   );
+};
+
+export const withPromotedLabel =(RestaurantCard)=>{
+
+  return (props)=>{
+    return(<div>
+      <label className="absolute bg-black text-white m-2 p-2"> Promoted </label>
+      <RestaurantCard {...props}/>
+    </div>
+);
+    
+};
 };
 
 export default RestaurantCard;
