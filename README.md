@@ -3,7 +3,7 @@
 [Namaste React Certificate](https://learn.namastedev.com/share-certificate?serialno=DJRAERFK)
 
 
+## Project 1 : ZIGFOOD ( Master Branch )
+## Assignments : Main Branch
 
-## Coding Assignment & Theory Assignment  ( in Main Branch)
-## ZIGFOOD APP ( in Master Branch)
 
