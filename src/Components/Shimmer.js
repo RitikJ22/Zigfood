@@ -1,7 +1,7 @@
 const Shimmer = () => {
   return (
     <>
-      <div className="body m-6">
+      <div className="body m-6 h-auto mb-auto">
         {Array(12)
           .fill("")
           .map((e, index) => (
