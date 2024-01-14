@@ -43,6 +43,5 @@
   "browserslist": [
     "last 2 versions"
   ],
-  "main": "App.js",
   "keywords": []
 }
