@@ -7,14 +7,15 @@ const Error = () => {
   const { status, statusText } = error;
 
   return (
-    <div>
-      <h1>Error</h1>
-      <h1> OOOPPSSS</h1>
-      <h1>
-        {status} : {statusText}
-      </h1>
+    <div className="h-screen flex flex-col items-center justify-center bg-red-100">
+      <h1 className="text-6xl font-bold text-red-600 mb-4">Error</h1>
+      <p className="text-2xl mb-2">OOOPPSSS, something went wrong!</p>
+      <p className="text-lg">
+        <span className="font-semibold">Error {status}:</span> {statusText}
+      </p>
     </div>
   );
 };
 
 export default Error;
+
