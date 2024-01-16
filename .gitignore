@@ -1,3 +1,9 @@
 .parcel-cache
 node_modules/
 dist/
+
+# Coverage files
+/coverage
+.coverage.*
+htmlcov/
+.cover/
