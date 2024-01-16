@@ -1,36 +1,27 @@
-# NamasteReact
+# ZIGFOOD - Food Ordering React Project
 
-This repository contains coursework completed during the Namaste React Course by Akshay Saini.
+Welcome to ZIGFOOD, a React project developed as part of the Namaste React coursework. ZIGFOOD is a food ordering application that utilizes Swiggy's public API to bring a real-world food ordering experience to your browser.
 
-[Namaste React Certificate](https://learn.namastedev.com/share-certificate?serialno=DJRAERFK)
-
-
-### Overview
-
-This repository serves as a collection of coursework completed during the Namaste React program, a live course instructed by Akshay Saini. The course spanned 12 weeks, during which we developed a frontend food ordering app using Swiggy's public API in 12 sessions .
-
-I've organized the content into two branches:
-
-- **Master Branch:** Contains the code for the food ordering project named ZIGFOOD.
-  
-- **Main Branch:** Includes detailed weekly updates, theory work, coding exercises, and assignments conducted throughout the 12-week course.
-
-### Course Certificate
+## Course Certificate
 
 ![Namaste React Certificate](https://learn.namastedev.com/share-certificate?serialno=DJRAERFK)
 
-Feel free to explore each branch to delve into the practical implementation (Master Branch) and theoretical insights (Main Branch) gained during the Namaste React coursework.
+## Project Overview
 
-## Project Structure
+### Features
 
-- **Master Branch:** Contains the codebase for the ZIGFOOD food ordering project.
+- **Food Ordering:** Browse through a curated selection of restaurants, view detailed menus, and place food orders seamlessly.
+  
+- **Integration with Swiggy API:** ZIGFOOD integrates with Swiggy's public API to provide up-to-date information on restaurants, menus, and food items.
 
-- **Main Branch:** Includes weekly updates, theory work, coding exercises, and assignments conducted during the 12-week course.
+- **Responsive Design:** The user interface is built with React and styled using Tailwind CSS, ensuring a responsive and visually appealing experience across devices.
 
 ### Context
 
-The project is centered around creating a frontend food ordering app within a 12-week timeframe, utilizing Swiggy's public API. The coursework is divided into two branches, with the Master branch housing the codebase for the project and the Main branch containing detailed weekly updates and assignments.
+ZIGFOOD was developed as a practical application during the Namaste React coursework. The project showcases the integration of React, Tailwind CSS,  Swiggy's public API and Redux Toolkit to create an interactive food ordering experience.
 
-Thank you for exploring the NamasteReact repository!
+Feel free to explore the codebase, contribute, or adapt it to meet your specific requirements.
 
-Happy coding! 🚀
+Thank you for exploring ZIGFOOD!
+
+Happy coding! 🍔🍕🚀
