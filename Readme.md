@@ -2,6 +2,8 @@
 
 Welcome to ZIGFOOD, a React project developed as part of the Namaste React coursework. ZIGFOOD is a food ordering application that utilizes Swiggy's public API to bring a real-world food ordering experience to your browser.
 
+Live Link- [Demo](https://zigfood.vercel.app/)
+
 ## Course Certificate
 
 ![Namaste React Certificate](https://learn.namastedev.com/share-certificate?serialno=DJRAERFK)
