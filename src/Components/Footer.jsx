@@ -60,7 +60,7 @@ const Footer = () => {
             <img className="w-[130px] sm:w-[182px]" src={FOOTER_LOGO_URL} />
           </div>
           <div className="grow text-center text-xl tracking-[-0.6px]">
-            © 2023 FoodChimp
+            © 2023 ZIGFOOD
           </div>
           <div className="w-[180px]"></div>
         </div>

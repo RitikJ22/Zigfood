@@ -52,5 +52,5 @@ export const FETCH_ADDRESS_URL = `${PROXY_URL}${encodeURIComponent("https://www.
 export const REST_MENU_URL = `${PROXY_URL}${encodeURIComponent("https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true")}`;
 export const ADDRESS_SUGG_URL = `${PROXY_URL}${encodeURIComponent("https://www.swiggy.com/dapi/misc/place-autocomplete?input=")}`;
 export const SEARCH_REST_URL = `${PROXY_URL}${encodeURIComponent("https://www.swiggy.com/dapi/restaurants/search/suggest?")}`;
-export const FETCH_HOME_DATA_URL = `${PROXY_URL}${encodeURIComponent("https://www.swiggy.com/dapi/restaurants/list/v5?")}`;
+export const FETCH_HOME_DATA_URL = `${PROXY_URL}${encodeURIComponent("https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=30.306468&lng=78.00312699999999&restaurantId=")}`;
 export const FETCH_MORE_DATA_URL = `${PROXY_URL}${encodeURIComponent("https://www.swiggy.com/dapi/restaurants/list/update")}`;
